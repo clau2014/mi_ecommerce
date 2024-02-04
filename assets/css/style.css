@@ -47,14 +47,14 @@ section {
 
 .card:hover {
     transform: translate(10px);
-    background-color: pink;
+    background-color: rgb(7, 193, 218);
 }
 
 footer {
-    background-color: #000000;
+    background-color: #fbfbfc;
     grid-area: footer;
     padding: 20px;
-    color: #ffffff;
+    color: #036e7c;
     text-align: center;
 
 }
@@ -70,7 +70,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ec9a9a;
+    background-color: #04979c;
     text-align: center;
     padding: 20px;
 
@@ -93,7 +93,7 @@ nav li {
 
 li:hover {
     transition: 0.5s;
-    color: #ef5454;
+    color: #12a8b3;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ li:hover {
 
 aside {
     grid-area: aside;
-    background-color: #fbe3e3;
+    background-color: #aef3f8;
     padding-left: 10px;
     padding-right: 25px;
     padding-top: 10px;
@@ -143,12 +143,12 @@ button {
     padding: 5px 10px;
     width: 100%;
     font-size: 16px;
-    background-color: #ef5454;
+    background-color: #05dbd1;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #ebdcdc;
+    background-color: #97eefa;
 }
 
 h2 {
